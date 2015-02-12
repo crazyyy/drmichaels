@@ -14,3 +14,4 @@ wp-content/wp-cache-config.php
 /*.sublime-project
 /*.sublime-workspace
 /html/node_modules
+/wp-drmichaels/node_modules
