@@ -61,7 +61,7 @@ gulp.task('css', function () {
         .pipe(plugins.sourcemaps.init())
         .pipe(plugins.sass({
             errLogToConsole:    true,
-            outputStyle:        'nested'
+            outputStyle:        sassStyle
         }))
         .on('error', function(err){
             new gutil.PluginError('CSS', err, {showStack: true}),
