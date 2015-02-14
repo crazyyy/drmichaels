@@ -10,7 +10,7 @@
                                     <div class="content clearfix">
                                         <div itemprop="articleBody">
                                             <div class="imgheader hidden-tablet hidden-desktop">
-                                                <img src="img/yasmin-alzoubaidy.jpg" alt="">
+                                                <img src="<?php echo get_template_directory_uri(); ?>/img/yasmin-alzoubaidy.jpg" alt="">
                                             </div>
                                             <div class="uk-grid" data-uk-grid-margin="">
                                                 <div class="uk-width-medium-2-3">
@@ -23,7 +23,7 @@
                                                         <p>During her training, she had the opportunity to work as a clinical instructor and teach the undergraduate students at Tufts University School of Dental Medicine, Boston University School of Dental Medicine and University of Medicine and Dentistry of New Jersey in the USA. Dr.Yasmin is a member of the American Association of Endodontist, American Board of Endodontics College of Diplomates and the American Dental Association.</p>
                                                     </div>
                                                     <div style="text-align: center;">
-                                                        <img src="img/dryaz-aee-logo.png" alt="">
+                                                        <img src="<?php echo get_template_directory_uri(); ?>/img/dryaz-aee-logo.png" alt="">
                                                     </div>
                                                     <div>
                                                         <div id="accordion-11-54dd0d39801b5" class="wk-accordion wk-accordion-coolblue clearfix" data-widgetkit="accordion" data-options="{&quot;style&quot;:&quot;coolblue&quot;,&quot;collapseall&quot;:1,&quot;matchheight&quot;:0,&quot;index&quot;:6,&quot;duration&quot;:500,&quot;width&quot;:&quot;auto&quot;,&quot;order&quot;:&quot;coolblue&quot;}">
@@ -43,16 +43,16 @@
                                                             <div class="content-wrapper" style="overflow: hidden; display: none; height: 0px;">
                                                                 <div class="content wk-content clearfix">
                                                                     <p>
-                                                                        <img src="img/dryaz-atwork.jpg" alt="Dr. Yasmin at work">
+                                                                        <img src="<?php echo get_template_directory_uri(); ?>/img/dryaz-atwork.jpg" alt="Dr. Yasmin at work">
                                                                     </p>
                                                                     <p>
-                                                                        <img src="img/dryaz-with-micro.jpg" alt="Dr. Yasmin with the microscope">
+                                                                        <img src="<?php echo get_template_directory_uri(); ?>/img/dryaz-with-micro.jpg" alt="Dr. Yasmin with the microscope">
                                                                     </p>
                                                                     <p>
-                                                                        <img src="img/dryaz-micro.jpg" alt="Dental Microscope">
+                                                                        <img src="<?php echo get_template_directory_uri(); ?>/img/dryaz-micro.jpg" alt="Dental Microscope">
                                                                     </p>
                                                                     <p>
-                                                                        <img src="img/dryaz-mini-endo.jpg" alt="Mini Endo">
+                                                                        <img src="<?php echo get_template_directory_uri(); ?>/img/dryaz-mini-endo.jpg" alt="Mini Endo">
                                                                     </p>
                                                                 </div>
                                                             </div>
@@ -131,19 +131,19 @@
                                                             <div class="content-wrapper" style="overflow: hidden; display: none; height: 0px;">
                                                                 <div class="content wk-content clearfix">
                                                                     <p style="margin-top: 15px;">
-                                                                        <img src="img/rootcanal-case1.jpg" alt="rootcanal-case1">
+                                                                        <img src="<?php echo get_template_directory_uri(); ?>/img/rootcanal-case1.jpg" alt="rootcanal-case1">
                                                                     </p>
                                                                     <p>
-                                                                        <img src="img/rootcanal-case2.jpg" alt="rootcanal-case2">
+                                                                        <img src="<?php echo get_template_directory_uri(); ?>/img/rootcanal-case2.jpg" alt="rootcanal-case2">
                                                                     </p>
                                                                     <p>
-                                                                        <img src="img/rootcanal-case3.jpg" alt="rootcanal-case3">
+                                                                        <img src="<?php echo get_template_directory_uri(); ?>/img/rootcanal-case3.jpg" alt="rootcanal-case3">
                                                                     </p>
                                                                     <p>
-                                                                        <img src="img/rootcanal-case4.jpg" alt="rootcanal-case4">
+                                                                        <img src="<?php echo get_template_directory_uri(); ?>/img/rootcanal-case4.jpg" alt="rootcanal-case4">
                                                                     </p>
                                                                     <p>
-                                                                        <img src="img/rootcanal-case5.jpg" alt="rootcanal-case5">
+                                                                        <img src="<?php echo get_template_directory_uri(); ?>/img/rootcanal-case5.jpg" alt="rootcanal-case5">
                                                                     </p>
                                                                 </div>
                                                             </div>
@@ -152,7 +152,7 @@
                                                 </div>
                                                 <div class="uk-width-medium-1-3">
                                                     <div class="hidden-phone">
-                                                        <img src="img/yasmin-alzoubaidy.jpg" alt="Yasmin Al-Zoubaidy">
+                                                        <img src="<?php echo get_template_directory_uri(); ?>/img/yasmin-alzoubaidy.jpg" alt="Yasmin Al-Zoubaidy">
                                                     </div>
                                                     <div class="quote-greenbar">
                                                         <h4>Researchers found that patients with multiple endodontic treatments had a 45% reduced risk of cancer.</h4>
