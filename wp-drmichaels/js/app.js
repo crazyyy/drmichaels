@@ -1710,6 +1710,8 @@ try {
 } catch (e) {
     console.error("Error in file:/templates/drmichaels/warp/js/responsive.js; Error:" + e.message)
 }
+
+
 try {
     !function(t) {
         var e = function() {
@@ -1755,6 +1757,7 @@ try {
 } catch (e) {
     console.error("Error in file:/templates/drmichaels/warp/js/accordionmenu.js; Error:" + e.message)
 }
+
 try {
     !function(t) {
         var e = function() {
@@ -1899,6 +1902,7 @@ try {
 } catch (e) {
     console.error("Error in file:/templates/drmichaels/warp/js/dropdownmenu.js; Error:" + e.message)
 }
+
 try {
     !function(t) {
         if ("function" == typeof define && define.amd && define("uikit", function() {
@@ -2714,6 +2718,7 @@ try {
 } catch (e) {
     console.error("Error in file:/templates/drmichaels/warp/js/uikit.min.js; Error:" + e.message)
 }
+
 try {
     !function(t) {
         "use strict";
@@ -2850,43 +2855,6 @@ try {
     }(jQuery)
 } catch (e) {
     console.error("Error in file:/templates/drmichaels/js/template.js; Error:" + e.message)
-}
-try {
-    var setREVStartSize = function() {
-        var t = new Object;
-        if (t.startwidth = 1200, t.startheight = 500, t.container = jQuery("#rev_slider_1_1"), t.fullScreen = "off", t.forceFullWidth = "off", t.container.closest(".rev_slider_wrapper").css({height: t.container.height()}), t.width = parseInt(t.container.width(), 0), t.height = parseInt(t.container.height(), 0), t.bw = t.width / t.startwidth, t.bh = t.height / t.startheight, t.bh > t.bw && (t.bh = t.bw), t.bh < t.bw && (t.bw = t.bh), t.bw < t.bh && (t.bh = t.bw), t.bh > 1 && (t.bw = 1, t.bh = 1), t.bw > 1 && (t.bw = 1, t.bh = 1), t.height = Math.round(t.startheight * (t.width / t.startwidth)), t.height > t.startheight && "on" != t.autoHeight && (t.height = t.startheight), "on" == t.fullScreen) {
-            t.height = t.bw * t.startheight;
-            var e = (t.container.parent().width(), jQuery(window).height());
-            if (void 0 != t.fullScreenOffsetContainer)
-                try {
-                    var i = t.fullScreenOffsetContainer.split(",");
-                    jQuery.each(i, function(i, n) {
-                        e -= jQuery(n).outerHeight(!0), e < t.minFullScreenHeight && (e = t.minFullScreenHeight)
-                    })
-                } catch (n) {
-                }
-            t.container.parent().height(e), t.container.height(e), t.container.closest(".rev_slider_wrapper").height(e), t.container.closest(".forcefullwidth_wrapper_tp_banner").find(".tp-fullwidth-forcer").height(e), t.container.css({height: "100%"}), t.height = e
-        } else
-            t.container.height(t.height), t.container.closest(".rev_slider_wrapper").height(t.height), t.container.closest(".forcefullwidth_wrapper_tp_banner").find(".tp-fullwidth-forcer").height(t.height)
-    };
-    setREVStartSize();
-    var tpj = jQuery;
-    tpj.noConflict();
-    var revapi1;
-    tpj(document).ready(function() {
-        void 0 == tpj("#rev_slider_1_1").revolution ? revslider_showDoubleJqueryError("#rev_slider_1_1") : revapi1 = tpj("#rev_slider_1_1").show().revolution({dottedOverlay: "none",delay: 5e3,startwidth: 1200,startheight: 500,hideThumbs: 200,thumbWidth: 100,thumbHeight: 50,thumbAmount: 5,simplifyAll: "off",navigationType: "none",navigationArrows: "solo",navigationStyle: "round",touchenabled: "on",onHoverStop: "on",nextSlideOnWindowFocus: "off",swipe_threshold: .2,swipe_min_touches: 1,drag_block_vertical: !1,keyboardNavigation: "off",navigationHAlign: "right",navigationVAlign: "bottom",navigationHOffset: 0,navigationVOffset: 20,soloArrowLeftHalign: "right",soloArrowLeftValign: "bottom",soloArrowLeftHOffset: 73,soloArrowLeftVOffset: 20,soloArrowRightHalign: "right",soloArrowRightValign: "bottom",soloArrowRightHOffset: 30,soloArrowRightVOffset: 20,shadow: 0,fullWidth: "on",fullScreen: "off",spinner: "spinner4",stopLoop: "off",stopAfterLoops: -1,stopAtSlide: -1,shuffle: "on",autoHeight: "off",forceFullWidth: "off",hideTimerBar: "on",hideThumbsOnMobile: "on",hideBulletsOnMobile: "on",hideArrowsOnMobile: "on",hideThumbsUnderResolution: 0,hideSliderAtLimit: 0,hideCaptionAtLimit: 0,hideAllCaptionAtLilmit: 0,startWithSlide: 0,isJoomla: !0})
-    })
-} catch (e) {
-    console.error("Error in script declaration; Error:" + e.message)
-}
-try {
-    !function(t, e, i, n, a, o, r) {
-        t.GoogleAnalyticsObject = a, t[a] = t[a] || function() {
-            (t[a].q = t[a].q || []).push(arguments)
-        }, t[a].l = 1 * new Date, o = e.createElement(i), r = e.getElementsByTagName(i)[0], o.async = 1, o.src = n, r.parentNode.insertBefore(o, r)
-    }(window, document, "script", "//www.google-analytics.com/analytics.js", "ga"), ga("create", "UA-33239921-2", "drmichaels.com"), ga("send", "pageview")
-} catch (e) {
-    console.error("Error in script declaration; Error:" + e.message)
 }
 try {
     !function(t) {
