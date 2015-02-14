@@ -42,7 +42,8 @@ var     gulp        =       require('gulp'),
         plugins     =       require("gulp-load-plugins")({
                                 pattern: ['gulp-*', 'gulp.*'],
                                 replaceString: /\bgulp[\-.]/
-                            });
+                            })
+        livereload = require('gulp-livereload');
 
 var isProduction    = true,
     sassStyle       = 'compressed';
@@ -69,6 +70,7 @@ gulp.task('css', function () {
         })
         .pipe(plugins.size({showFiles:true}))
         .pipe(plugins.sourcemaps.write('/maps/'))
+        .pipe(livereload())
         .pipe(gulp.dest(paths.styles.dest));
 });
 
@@ -87,6 +89,7 @@ gulp.task('style', function () {
         outputStyle:        sassStyle
     }))
     .pipe(plugins.size({showFiles:true}))
+    .pipe(livereload())
     .pipe(gulp.dest(paths.styles.dest));
 });
 
@@ -97,6 +100,7 @@ gulp.task('scripts', function(){
         .pipe(gulp.dest(paths.scripts.dest))
         .pipe(isProduction ? plugins.uglify() : gutil.noop())
         .pipe(plugins.size({showFiles:true}))
+        .pipe(livereload())
         .pipe(gulp.dest(paths.scripts.dest));
 });
 
@@ -110,6 +114,7 @@ gulp.task('image', function() {
             })
         ))
         .pipe(gulp.dest(paths.images.dest))
+        .pipe(livereload())
         .pipe(plugins.size({showFiles:true}));
 });
 
@@ -153,6 +158,7 @@ gulp.task('clearcache', function () {
 });
 
 gulp.task('watch', ['sprite', 'clearcache', 'css', 'style', 'scripts', 'image', 'webp'], function(){
+    livereload.listen();
     gulp.watch(appFiles.styles, ['css', 'style', 'clearcache']).on('change', function(evt) {
         changeEvent(evt);
     });

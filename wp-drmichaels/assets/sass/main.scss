@@ -1,13 +1,9 @@
-
-
 .width33 {
     width: 33.333%;
 }
 
 [class*=width] {
     box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
 }
 
 .wk-slideshow {
@@ -93,8 +89,6 @@
     height: 100%;
     background: #fff;
     box-shadow: 0 0 5px #000;
-    -webkit-box-shadow: 0 0 5px #000;
-    -moz-box-shadow: 0 0 5px #000;
 }
 
 #lightbox-content {
@@ -151,9 +145,7 @@
 #lightbox-title {
     font-size: 13px;
     z-index: 1102;
-    -webkit-animation-name: uk-slide-top;
     animation-name: uk-slide-top;
-    -webkit-animation-duration: .5s;
     animation-duration: .5s;
 }
 
@@ -177,8 +169,6 @@
     color: #fff;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
     vertical-align: middle;
-    -webkit-box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.3) inset;
-    -moz-box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.3) inset;
     box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.3) inset;
     background-color: rgba(0, 0, 0, 0.2) !important;
 }
@@ -359,8 +349,6 @@ body {
 
 a {
     text-decoration: none;
-    -webkit-transition: color .1s ease-in-out;
-    -moz-transition: color .1s ease-in-out;
     transition: color .1s ease-in-out;
     background: 0 0;
     cursor: pointer;
@@ -461,8 +449,6 @@ ul.unstyled {
 }
 
 .uk-alert-close, .uk-button {
-    -moz-box-sizing: border-box !important;
-    -webkit-box-sizing: border-box !important;
     box-sizing: border-box !important;
 }
 
@@ -490,9 +476,6 @@ a:hover {
     overflow: visible;
     img {
         max-width: none !important;
-        -moz-transition: none 0;
-        -webkit-transition: none 0;
-        -o-transition: none 0;
         transition: none 0;
         margin: 0;
         padding: 0;
@@ -805,8 +788,6 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
     color: #fff;
     text-decoration: none;
     margin: 30px 20px 0;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
     border-radius: 3px;
     background-color: transparent;
     box-shadow: none;
@@ -998,8 +979,6 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
     text-align: center;
     border: none;
     text-shadow: none;
-    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
-    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
     &:focus, &:hover {
         background-color: #fafafa;
@@ -1220,8 +1199,6 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
     vertical-align: top;
     border: 0;
     border-radius: 4px;
-    -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1) inset;
-    -moz-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1) inset;
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1) inset;
     .uk-nav {
         margin: 0 -15px;
@@ -1254,7 +1231,6 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
     top: 0;
     bottom: 0;
     left: 0;
-    -webkit-transform: translateX(-100%);
     transform: translateX(-100%);
     z-index: 1001;
     width: 270px;
@@ -1262,7 +1238,6 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
     background: #0d0d0e;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
-    -webkit-transition: -webkit-transform .3s ease-in-out;
     transition: transform .3s ease-in-out;
     &:after {
         content: '';
@@ -1453,11 +1428,9 @@ li p {
 
 a.spotlight {
     img {
-        -webkit-transition: all linear .2s;
         transition: all linear .2s;
     }
     &:hover img {
-        -webkit-transform: scale(1.2) rotateZ(3deg);
         transform: scale(1.2) rotateZ(3deg);
     }
 }
@@ -1488,8 +1461,6 @@ form.short input:-moz-placeholder {
 }
 
 .wrapper {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     margin: auto;
 }
@@ -1514,8 +1485,6 @@ form.short input:-moz-placeholder {
 }
 
 #at-container {
-    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
-    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     background: #fff;
     overflow: hidden;
@@ -1527,8 +1496,6 @@ form.short input:-moz-placeholder {
 
 .fixed-header {
     width: 100% !important;
-    -webkit-transition: all .3s linear;
-    -moz-transition: all .3s linear;
     transition: all .3s linear;
 }
 
@@ -1569,15 +1536,11 @@ form.short input:-moz-placeholder {
 
 #header-responsive, #spotlight {
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.05);
-    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.05);
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.05);
 }
 
 #bottom-b {
     border-top: 1px solid rgba(0, 0, 0, 0.05);
-    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.05) inset;
-    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.05) inset;
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.05) inset;
 }
 
@@ -1661,18 +1624,12 @@ form.short input:-moz-placeholder {
     li.level1 {
         &.active, &:hover {
             background: #005daa;
-            -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.15) inset;
-            -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.15) inset;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.15) inset;
         }
     }
     .dropdown-bg {
         padding: 10px;
-        -webkit-border-radius: 0 0 3px 3px;
-        -moz-border-radius: 0 0 3px 3px;
         border-radius: 0 0 3px 3px;
-        -webkit-box-shadow: 0 -1px 0 1px rgba(0, 0, 0, 0.1) inset;
-        -moz-box-shadow: 0 -1px 0 1px rgba(0, 0, 0, 0.1) inset;
         box-shadow: 0 -1px 0 1px rgba(0, 0, 0, 0.1) inset;
         div.column {
             padding: 0;
@@ -1753,8 +1710,6 @@ form.short input:-moz-placeholder {
             text-shadow: none;
             overflow: hidden;
             position: relative;
-            -webkit-box-shadow: none;
-            -moz-box-shadow: none;
             box-shadow: none;
         }
         a.level1, span.level1 {
@@ -1878,8 +1833,6 @@ body, html {
     margin-bottom: 10px !important;
     padding-bottom: 10px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-    -webkit-box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1) inset;
-    -moz-box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1) inset;
     box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1) inset;
 }
 
@@ -2321,8 +2274,6 @@ div.imgheader {
         width: 100%;
         overflow: hidden;
         li {
-            -moz-box-sizing: border-box;
-            -webkit-box-sizing: border-box;
             box-sizing: border-box;
             padding: 7px 7px 0 0;
             background: #fff;
@@ -2336,9 +2287,6 @@ div.imgheader {
                 opacity: 1;
             }
             img {
-                -webkit-transition: all .3s ease;
-                -moz-transition: all .3s ease;
-                -o-transition: all .3s ease;
                 transition: all .3s ease;
             }
         }
@@ -2586,8 +2534,6 @@ select, textarea {
     font-size: 16px;
     line-height: 22px;
     color: #555;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
     border-radius: 0;
     vertical-align: middle;
     box-shadow: none;
@@ -2600,8 +2546,6 @@ input {
     &[type=text] {
         display: inline-block;
         font-size: 16px;
-        -webkit-border-radius: 0;
-        -moz-border-radius: 0;
         vertical-align: middle;
         font-weight: 300;
     }
@@ -3401,8 +3345,6 @@ button {
 
 #spotlight {
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.05);
-    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.05);
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.05);
 }
 
@@ -5241,28 +5183,14 @@ a.like {
 .six_imageGallery {
     .six_gallery_content {
         .overlay, img {
-            -webkit-transition: all .45s ease;
-            -moz-transition: all .45s ease;
-            -khtml-transition: all .45s ease;
-            -ms-transition: all .45s ease;
-            -o-transition: all .45s ease;
             transition: all .45s ease;
         }
     }
     a.six_gallery_icon_zoom {
-        -webkit-transition: all .45s ease;
-        -moz-transition: all .45s ease;
-        -khtml-transition: all .45s ease;
-        -ms-transition: all .45s ease;
-        -o-transition: all .45s ease;
         transition: all .45s ease;
     }
     .six_gallery_content:hover .effects4 {
         img {
-            -webkit-transform: scale(1.15);
-            -moz-transform: scale(1.15);
-            -ms-transform: scale(1.15);
-            -o-transform: scale(1.15);
             transform: scale(1.5);
         }
         .overlay {
@@ -6128,8 +6056,6 @@ a.like {
         color: #fff;
         font-size: 18px;
         border: none !important;
-        -moz-border-radius: 4px;
-        -webkit-border-radius: 4px;
         border-radius: 4px;
     }
     .bfFieldset-br {
@@ -6151,8 +6077,6 @@ a.like {
         border: 1px solid #ccc;
         width: auto;
         border-radius: 5px;
-        -moz-border-radius: 5px;
-        -webkit-border-radius: 5px;
     }
     label {
         vertical-align: top;
@@ -6165,8 +6089,6 @@ a.like {
             position: relative;
             overflow: hidden;
             background: 0 0;
-            -moz-border-radius: 3px;
-            -webkit-border-radius: 3px;
             border-radius: 3px;
         }
         input[type=text], select, textarea {
@@ -6192,8 +6114,6 @@ a.like {
         line-height: normal;
         border: 1px solid rgba(216, 80, 48, 0.3);
         border-radius: 5px;
-        -moz-border-radius: 5px;
-        -webkit-border-radius: 5px;
     }
     .bfLabelLeft {
         label {
@@ -6924,7 +6844,6 @@ a.like {
     width: 40px;
     height: 40px;
     text-align: center;
-    -webkit-animation: tp-rotate 2s infinite linear;
     animation: tp-rotate 2s infinite linear;
     .dot1 {
         width: 60%;
@@ -6934,10 +6853,8 @@ a.like {
         top: 0;
         background-color: #fff;
         border-radius: 100%;
-        -webkit-animation: tp-bounce 2s infinite ease-in-out;
         animation: tp-bounce 2s infinite ease-in-out;
         box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
-        -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
     }
     .dot2 {
         width: 60%;
@@ -6946,13 +6863,10 @@ a.like {
         position: absolute;
         background-color: #fff;
         border-radius: 100%;
-        -webkit-animation: tp-bounce 2s infinite ease-in-out;
         animation: tp-bounce 2s infinite ease-in-out;
         box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
-        -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
         top: auto;
         bottom: 0;
-        -webkit-animation-delay: -1s;
         animation-delay: -1s;
     }
 }
