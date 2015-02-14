@@ -45,7 +45,7 @@
                                 <nav id="menu">
                                     <ul class="menu menu-dropdown">
                                         <li class="level1 item101 active current">
-                                            <a href="#" class="level1 active current"><span>Home</span></a>
+                                            <a href="/" class="level1 active current"><span>Home</span></a>
                                         </li>
                                         <li class="level1 item107">
                                             <a href="#" class="level1"><span>About Us</span></a>
