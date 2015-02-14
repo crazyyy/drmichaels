@@ -10,7 +10,7 @@
                                     <div class="content clearfix">
                                         <div itemprop="articleBody">
                                             <div class="imgheader hidden-tablet hidden-desktop">
-                                                <img src="<?php echo get_template_directory_uri(); ?>/img/yasmin-alzoubaidy.jpg" alt="">
+                                                <?php if ( has_post_thumbnail()) : the_post_thumbnail('medium');  else: ?>
                                             </div>
                                             <div class="uk-grid" data-uk-grid-margin="">
                                                 <div class="uk-width-medium-2-3">

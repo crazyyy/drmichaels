@@ -2,7 +2,7 @@
             <div class="uk-container uk-container-center footer-body">
                 <div class="grid-box width100 grid-v">
                     <div class="module mod-box mod-overlay deepest">
-                        <div class="custom-module" style="background-image: url('img/bg-toothbrushes.jpg')">
+                        <div class="custom-module" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/bg-toothbrushes.jpg')">
                             <div class="wrapper">
                                 <div class="uk-grid" data-uk-grid-margin="">
                                     <div class="uk-width-medium-1-3">
@@ -263,19 +263,11 @@
     </div>
     </div>
 
-    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/app.js"></script> <a href="#" class="uk-icon-angle-up" title="" id="toTop" style="display: none;"><span id="toTopHover"></span></a>
-    <div id="lightbox-tmp"></div>
-    <div id="lightbox-loading">
-        <div></div>
-    </div>
-    <div id="lightbox-overlay" style="display: none;"></div>
-    <div id="lightbox-wrap">
-        <div id="lightbox-outer">
-            <div id="lightbox-content"></div>
-            <a id="lightbox-close"></a>
-            <div id="lightbox-title"></div><a href="#" id="lightbox-left"><span id="lightbox-left-ico"></span></a><a href="#" id="lightbox-right"><span id="lightbox-right-ico"></span></a>
-        </div>
-    </div>
+    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/app.js"></script> 
+
+
+    <a href="#" class="uk-icon-angle-up" title="" id="toTop" style="display: none;"><span id="toTopHover"></span></a>
+   
     <!-- <?php wp_footer(); ?>  -->
 
 </body>
