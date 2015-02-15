@@ -264,7 +264,8 @@
     </div>
 
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-1.11.2.min.js"></script> 
-    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/app.js"></script> 
+    <!--    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/app.js"></script>  -->
+    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/alldentist.js"></script> 
 
 
     <a href="#" class="uk-icon-angle-up" title="" id="toTop" style="display: none;"><span id="toTopHover"></span></a>

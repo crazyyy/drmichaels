@@ -785,8 +785,6 @@ function scpt_demo() {
         return;
 
     $demo_posts = new Super_Custom_Post_Type( 'Dentalist' );
-
-    # Test Icon. Should be a square grid.
     $demo_posts->set_icon( 'user-md' );
 }
 add_action( 'after_setup_theme', 'scpt_demo' );
