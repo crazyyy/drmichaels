@@ -2,6 +2,7 @@
             <section id="mosaic" class="grid-block">
                 <div class="module deepest">
                     <div id="six_gallery120" class="six_imageGallery balbooa">
+                        
                         <div class="six_gallery_filter" id="six_gallery_filter120">
                             <ul class="filter">
                                 <li class="active"><a onclick="return false" data-filter="*" href="#">All</a>
@@ -21,7 +22,7 @@
                                 <li><a onclick="return false" data-filter=".Hygienists" href="#">Hygienists</a>
                                 </li>
                             </ul>
-                        </div>
+                        </div><!-- six_gallery_filter -->
 
                         <ul id="itemContainer" class="six_gallery_container six_gallery_container120">
                             

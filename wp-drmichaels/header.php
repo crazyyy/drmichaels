@@ -45,7 +45,7 @@
                                             <a href="#" class="level1"><span>About Us</span></a>
                                         </li>
                                         <li class="level1 item108 parent">
-                                            <a href="#" class="level1 parent"><span>Our Team</span></a>
+                                            <a href="http://drmichaels.me/team.htm" class="level1 parent"><span>Our Team</span></a>
                                             <div class="dropdown columns3" style="display: none; overflow: hidden;">
                                                 <div style="overflow: hidden;">
                                                     <div>
@@ -161,7 +161,7 @@
                                                             <div>
                                                                 <div class="width33 column">
                                                                     <ul class="nav-child unstyled small level2" style="min-height: 226px;">
-                                                                        <li class="level2 item205"><a class="level2 has-icon" href="#"><i class="uk-icon-check"></i><span>Couture Smile™</span></a>
+                                                                        <li class="level2 item205"><a class="level2 has-icon" href="http://drmichaels.me/services.htm"><i class="uk-icon-check"></i><span>Couture Smile™</span></a>
                                                                         </li>
                                                                         <li class="level2 item153"><a class="level2 has-icon" href="#"><i class="uk-icon-check"></i><span>Pediatric Dentistry</span></a>
                                                                         </li>
