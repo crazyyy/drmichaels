@@ -17,12 +17,6 @@
 
     <!-- css + javascript -->
     <?php wp_head(); ?>
-    <script>
-    !function(){
-        // configure legacy, retina, touch requirements @ conditionizr.com
-        conditionizr()
-    }()
-    </script>
 </head>
 <body id="page" <?php body_class('page isblog at-boxed'); ?> hola-ext-player="1">
     <div class="sheet uk-clearfix bg_texture_6">

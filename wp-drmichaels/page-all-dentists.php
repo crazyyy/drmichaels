@@ -35,7 +35,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <img src="img/michael-formenius.jpg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/michael-formenius.jpg" alt="">
                                 </div>
                             </li>
                             <li class="six_gallery_content all_category GeneralsDentists" style="width: 272.15px; height: 331.707317073171px; position: absolute; left: 308px; top: 0px;">
@@ -50,7 +50,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <img src="img/christina-formenius.jpg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/christina-formenius.jpg" alt="">
                                 </div>
                             </li>
                             <li class="six_gallery_content all_category GeneralsDentists" style="width: 272.15px; height: 331.707317073171px; position: absolute; left: 600px; top: 0px;">
@@ -65,7 +65,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <img src="img/gun-ingrid-norell1.jpg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/gun-ingrid-norell1.jpg" alt="">
                                 </div>
                             </li>
                             <li class="six_gallery_content all_category GeneralsDentists" style="width: 272.15px; height: 331.707317073171px; position: absolute; left: 892px; top: 0px;">
@@ -80,7 +80,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <img src="img/thomas-lyth.jpg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/thomas-lyth.jpg" alt="">
                                 </div>
                             </li>
                             <li class="six_gallery_content all_category GeneralsDentists" style="width: 272.15px; height: 331.707317073171px; position: absolute; left: 16px; top: 351px;">
@@ -95,7 +95,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <img src="img/soren-kollat-jensen.jpg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/soren-kollat-jensen.jpg" alt="">
                                 </div>
                             </li>
                             <li class="six_gallery_content all_category GeneralsDentists" style="width: 272.15px; height: 331.707317073171px; position: absolute; left: 308px; top: 351px;">
@@ -110,7 +110,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <img src="img/christina-friis-moeller.jpg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/christina-friis-moeller.jpg" alt="">
                                 </div>
                             </li>
                             <li class="six_gallery_content all_category GeneralsDentists" style="width: 272.15px; height: 331.707317073171px; position: absolute; left: 600px; top: 351px;">
@@ -125,7 +125,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <img src="img/ulrike-spitz.jpg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/ulrike-spitz.jpg" alt="">
                                 </div>
                             </li>
                             <li class="six_gallery_content all_category GeneralsDentists" style="width: 272.15px; height: 331.707317073171px; position: absolute; left: 892px; top: 351px;">
@@ -140,7 +140,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <img src="img/marwan-alobeidi.jpg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/marwan-alobeidi.jpg" alt="">
                                 </div>
                             </li>
                             <li class="six_gallery_content all_category GeneralsDentists" style="width: 272.15px; height: 331.707317073171px; position: absolute; left: 16px; top: 703px;">
@@ -155,7 +155,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <img src="img/chris-johansson.jpg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/chris-johansson.jpg" alt="">
                                 </div>
                             </li>
                             <li class="six_gallery_content all_category GeneralsDentists" style="width: 272.15px; height: 331.707317073171px; position: absolute; left: 308px; top: 703px;">
@@ -170,7 +170,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <img src="img/soulaf-shaker.jpg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/soulaf-shaker.jpg" alt="">
                                 </div>
                             </li>
                             <li class="six_gallery_content all_category OralsSurgeons GeneralsDentists" style="width: 272.15px; height: 331.707317073171px; position: absolute; left: 600px; top: 703px;">
@@ -185,7 +185,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <img src="img/fernando-arroyo-meneses.jpg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/fernando-arroyo-meneses.jpg" alt="">
                                 </div>
                             </li>
                             <li class="six_gallery_content all_category Paedodontists" style="width: 272.15px; height: 331.707317073171px; position: absolute; left: 892px; top: 703px;">
@@ -200,7 +200,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <img src="img/imneet-madan.jpg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/imneet-madan.jpg" alt="">
                                 </div>
                             </li>
                             <li class="six_gallery_content all_category Paedodontists" style="width: 272.15px; height: 331.707317073171px; position: absolute; left: 16px; top: 1055px;">
@@ -215,7 +215,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <img src="img/chantal-kengo.jpg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/chantal-kengo.jpg" alt="">
                                 </div>
                             </li>
                             <li class="six_gallery_content all_category Orthodontists" style="width: 272.15px; height: 331.707317073171px; position: absolute; left: 308px; top: 1055px;">
@@ -230,7 +230,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <img src="img/teertha-karnakar.jpg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/teertha-karnakar.jpg" alt="">
                                 </div>
                             </li>
                             <li class="six_gallery_content all_category Orthodontists" style="width: 272.15px; height: 331.707317073171px; position: absolute; left: 600px; top: 1055px;">
@@ -245,7 +245,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <img src="img/lina-stavroula-papika.jpg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/lina-stavroula-papika.jpg" alt="">
                                 </div>
                             </li>
                             <li class="six_gallery_content all_category Endondontists" style="width: 272.15px; height: 331.707317073171px; position: absolute; left: 892px; top: 1055px;">
@@ -260,7 +260,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <img src="img/yasmin-alzoubaidy.jpg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/yasmin-alzoubaidy.jpg" alt="">
                                 </div>
                             </li>
                             <li class="six_gallery_content all_category OralsSurgeons" style="width: 272.15px; height: 331.707317073171px; position: absolute; left: 16px; top: 1406px;">
@@ -275,7 +275,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <img src="img/steen-sindet-pedersen.jpg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/steen-sindet-pedersen.jpg" alt="">
                                 </div>
                             </li>
                             <li class="six_gallery_content all_category Prosthodontists" style="width: 272.15px; height: 331.707317073171px; position: absolute; left: 308px; top: 1406px;">
@@ -290,7 +290,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <img src="img/omar-aldaoudi.jpg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/omar-aldaoudi.jpg" alt="">
                                 </div>
                             </li>
                             <li class="six_gallery_content all_category Hygienists" style="width: 272.15px; height: 331.707317073171px; position: absolute; left: 600px; top: 1406px;">
@@ -305,7 +305,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <img src="img/felicia-bjurfjall.jpg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/felicia-bjurfjall.jpg" alt="">
                                 </div>
                             </li>
                             <li class="six_gallery_content all_category Hygienists" style="width: 272.15px; height: 331.707317073171px; position: absolute; left: 892px; top: 1406px;">
@@ -320,7 +320,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <img src="img/hilde-brunvoll-lyth.jpg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/hilde-brunvoll-lyth.jpg" alt="">
                                 </div>
                             </li>
                             <li class="six_gallery_content all_category Hygienists" style="width: 272.15px; height: 331.707317073171px; position: absolute; left: 16px; top: 1758px;">
@@ -335,7 +335,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <img src="img/dulene-swanepoel.jpg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/dulene-swanepoel.jpg" alt="">
                                 </div>
                             </li>
                             <li class="six_gallery_content all_category Hygienists" style="width: 272.15px; height: 331.707317073171px; position: absolute; left: 308px; top: 1758px;">
@@ -350,7 +350,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <img src="img/rahleh-mahtabpour.jpg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/rahleh-mahtabpour.jpg" alt="">
                                 </div>
                             </li>
                             <li class="six_gallery_content all_category Hygienists" style="width: 272.15px; height: 331.707317073171px; position: absolute; left: 600px; top: 1758px;">
@@ -365,7 +365,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <img src="img/safiyah-adham.jpg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/safiyah-adham.jpg" alt="">
                                 </div>
                             </li>
                             <li class="six_gallery_content all_category Hygienists" style="width: 272.15px; height: 331.707317073171px; position: absolute; left: 892px; top: 1758px;">
@@ -380,7 +380,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <img src="img/cindy-aylward.jpg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/cindy-aylward.jpg" alt="">
                                 </div>
                             </li>
                         </ul>
