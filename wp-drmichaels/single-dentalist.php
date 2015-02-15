@@ -47,15 +47,15 @@
                                         </div><!-- uk-width-medium-2-3 -->
 
 
-
-
                                         <div class="uk-width-medium-1-3">
                                             <div class="hidden-phone">
                                                 <?php the_post_thumbnail('medium'); ?>
                                             </div>
+                                            <?php if( get_field('quotes') ): ?>
                                             <div class="quote-greenbar">
-                                                <h4>Researchers found that patients with multiple endodontic treatments had a 45% reduced risk of cancer.</h4>
+                                                <h4><?php the_field('quotes'); ?></h4>
                                             </div>
+                                            <?php endif; ?>
                                         </div>
                                     </div>
 

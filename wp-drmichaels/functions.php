@@ -783,7 +783,6 @@ function dimox_breadcrumbs() {
 function scpt_demo() {
     if ( ! class_exists( 'Super_Custom_Post_Type' ) )
         return;
-
     $demo_posts = new Super_Custom_Post_Type( 'Dentalist' );
     $demo_posts->set_icon( 'user-md' );
 }

@@ -223,69 +223,7 @@
                                                 </div>
                                             </div>
                                         </li>
-                                        <li class="level1 item109 parent"><span class="separator level1 parent"><span>New Patient</span></span>
-                                            <div class="dropdown columns1" style="display: none; overflow: hidden;">
-                                                <div style="overflow: hidden;">
-                                                    <div>
-                                                        <div class="dropdown-bg">
-                                                            <div>
-                                                                <div class="width100 column">
-                                                                    <ul class="nav-child unstyled small level2" style="min-height: 112px;">
-                                                                        <li class="level2 item144"><a class="level2 has-icon" href="#"><i class="uk-icon-star"></i><span>What Sets Us Apart</span></a>
-                                                                        </li>
-                                                                        <li class="level2 item147"><a class="level2 has-icon" href="#"><i class="uk-icon-info-circle"></i><span>Why Visit The Dentist?</span></a>
-                                                                        </li>
-                                                                        <li class="level2 item148"><a class="level2 has-icon" href="#"><i class="uk-icon-smile-o"></i><span>Your First Dental Visit</span></a>
-                                                                        </li>
-                                                                        <li class="level2 item149"><a class="level2 has-icon" href="#"><i class="uk-icon-calendar"></i><span>Regular Checkups</span></a>
-                                                                        </li>
-                                                                        <li class="level2 item150"><a class="level2 has-icon" href="#"><i class="uk-icon-thumbs-o-up"></i><span>Dental Outlook</span></a>
-                                                                        </li>
-                                                                        <li class="level2 item151"><a class="level2 has-icon" href="#"><i class="uk-icon-lock"></i><span>Privacy Policy</span></a>
-                                                                        </li>
-                                                                        <li class="level2 item152"><a class="level2 has-icon" href="#"><i class="uk-icon-pencil"></i><span>Book An Appointment</span></a>
-                                                                        </li>
-                                                                    </ul>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="level1 item111"><a href="#" class="level1"><span>Education</span></a>
-                                        </li>
-                                        <li class="level1 item112 parent"><span class="separator level1 parent"><span>Contact Us</span></span>
-                                            <div class="dropdown columns1" style="display: none; overflow: hidden;">
-                                                <div style="overflow: hidden;">
-                                                    <div>
-                                                        <div class="dropdown-bg">
-                                                            <div>
-                                                                <div class="width100 column">
-                                                                    <ul class="nav-child unstyled small level2" style="min-height: 128px;">
-                                                                        <li class="level2 item167"><a class="level2 has-icon" href="#"><i class="uk-icon-home"></i><span>Jumeirah Clinic</span></a>
-                                                                        </li>
-                                                                        <li class="level2 item168"><a class="level2 has-icon" href="#"><i class="uk-icon-home"></i><span>Umm Suqeim Clinic</span></a>
-                                                                        </li>
-                                                                        <li class="level2 item169"><a class="level2 has-icon" href="#"><i class="uk-icon-home"></i><span>Children's Dental Center</span></a>
-                                                                        </li>
-                                                                        <li class="level2 item170"><a class="level2 has-icon" href="#"><i class="uk-icon-pencil"></i><span>Book An Appointment</span></a>
-                                                                        </li>
-                                                                        <li class="level2 item172"><a class="level2 has-icon" href="#"><i class="uk-icon-question-circle"></i><span>Send Enquiry</span></a>
-                                                                        </li>
-                                                                        <li class="level2 item173"><a class="level2 has-icon" href="#"><i class="uk-icon-comments-o"></i><span>Send Feedback</span></a>
-                                                                        </li>
-                                                                        <li class="level2 item174"><a class="level2 has-icon" href="#"><i class="uk-icon-suitcase"></i><span>Careers at Dr. Michael's</span></a>
-                                                                        </li>
-                                                                        <li class="level2 item175"><a class="level2 has-icon" href="#"><i class="uk-icon-dot-circle-o"></i><span>Online Survey</span></a>
-                                                                        </li>
-                                                                    </ul>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                        <li class="level1 item112 parent"><a href="http://drmichaels.me/contact-us.htm" class="separator level1 parent"><span>Contact Us</span></a>
                                         </li>
                                     </ul>
                                 </nav>
