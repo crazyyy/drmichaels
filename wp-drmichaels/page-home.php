@@ -3,7 +3,7 @@
  		<section id="showcase">
             <div class="wrapper grid-block">
                 <div class="grid-box width100 grid-h">
-                    <div class="module mod-box  deepest">
+                    <div class="module mod-box deepest">
                         <div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin: 0px auto; padding: 0px; max-height: 500px; height: 500px; overflow: visible; background-color: rgb(255, 255, 255);">
                             <div id="rev_slider_1_1" class="rev_slider fullwidthabanner revslider-initialised tp-simpleresponsive hovered" style="max-height: 500px; height: 500px;">
                                 <ul class="tp-revslider-mainul" style="display: block; overflow: hidden; width: 100%; height: 100%; max-height: 500px;">
@@ -118,7 +118,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div><!-- module mod-box deepest -->
                 </div>
             </div>
         </section>

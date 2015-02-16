@@ -45,7 +45,7 @@
                                             <a href="#" class="level1"><span>About Us</span></a>
                                         </li>
                                         <li class="level1 item108 parent">
-                                            <a href="http://drmichaels.me/team.htm" class="level1 parent"><span>Our Team</span></a>
+                                            <a href="<?php echo home_url(); ?>/team.htm" class="level1 parent"><span>Our Team</span></a>
                                             <div class="dropdown columns3" style="display: none; overflow: hidden;">
                                                 <div style="overflow: hidden;">
                                                     <div>
@@ -161,7 +161,7 @@
                                                             <div>
                                                                 <div class="width33 column">
                                                                     <ul class="nav-child unstyled small level2" style="min-height: 226px;">
-                                                                        <li class="level2 item205"><a class="level2 has-icon" href="http://drmichaels.me/services.htm"><i class="uk-icon-check"></i><span>Couture Smile™</span></a>
+                                                                        <li class="level2 item205"><a class="level2 has-icon" href="<?php echo home_url(); ?>/services.htm"><i class="uk-icon-check"></i><span>Couture Smile™</span></a>
                                                                         </li>
                                                                         <li class="level2 item153"><a class="level2 has-icon" href="#"><i class="uk-icon-check"></i><span>Pediatric Dentistry</span></a>
                                                                         </li>
@@ -223,7 +223,7 @@
                                                 </div>
                                             </div>
                                         </li>
-                                        <li class="level1 item112 parent"><a href="http://drmichaels.me/contact-us.htm" class="separator level1 parent"><span>Contact Us</span></a>
+                                        <li class="level1 item112 parent"><a href="<?php echo home_url(); ?>/contact-us.htm" class="separator level1 parent"><span>Contact Us</span></a>
                                         </li>
                                     </ul>
                                 </nav>
@@ -233,13 +233,7 @@
                                     <div>
                                         <div class="wrapper">
                                             <div>
-                                                <a href="#" class="uk-icon-button uk-icon-facebook" target="_blank"></a>
-                                                <a href="#" class="uk-icon-button uk-icon-twitter" target="_blank"></a>
-                                                <a href="#" class="uk-icon-button uk-icon-play" target="_blank"></a>
-                                                <a href="#" class="uk-icon-button uk-icon-plus" target="_blank"></a>
-                                                <a href="#" class="uk-icon-button uk-icon-linkedin" target="_blank"></a>
-                                                <a href="#" class="uk-icon-button uk-icon-instagram" target="_blank"></a>
-                                                <a href="#" class="uk-icon-button uk-icon-tumblr" target="_blank"></a>
+                                                <?php get_template_part('include-social-link'); ?>
                                             </div>
                                         </div>
                                     </div>
