@@ -15,3 +15,4 @@ wp-content/wp-cache-config.php
 /*.sublime-workspace
 /html/node_modules
 /wp-drmichaels/node_modules
+/wp-drmichaels/sftp-config.json

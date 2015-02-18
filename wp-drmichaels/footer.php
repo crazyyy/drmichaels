@@ -81,8 +81,8 @@
 
 
     <a href="#" class="uk-icon-angle-up" title="" id="toTop" style="display: none;"><span id="toTopHover"></span></a>
-   
-    <!-- <?php wp_footer(); ?>  -->
+
+    <?php wp_footer(); ?> 
 
 </body>
 </html>

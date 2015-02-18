@@ -25,7 +25,7 @@
                 <header id="header" class="fixed-header">
                     <div class=" grid-block uk-container wrapper  ">
                         <div class="headerbar">
-                            <a id="logo" href="#">
+                            <a id="logo" href="/">
                                 <div>
                                     <div class="wrapper">
                                         <div>
@@ -34,6 +34,7 @@
                                     </div>
                                 </div>
                             </a>
+                            
                             <a href="#" id="at-navbar" class="uk-hidden-large uk-navbar-toggle uk-float-right" data-uk-offcanvas=""></a>
                             <div class="menubar">
                                 <nav id="menu">
