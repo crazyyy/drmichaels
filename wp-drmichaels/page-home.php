@@ -131,32 +131,26 @@
                                 <meta itemprop="inLanguage" content="en-GB">
                                 <div class="content clearfix">
                                     <div itemprop="articleBody">
+                                        
+
                                         <div class="uk-grid" data-uk-grid-margin="">
-                                            <div class="uk-width-medium-1-3">
-                                                <a class="uk-thumbnail-expand spotlight" data-lightbox="group:gallery" href="#" data-spotlight="on" style="position: relative; overflow: hidden;">
-                                                    <img width="380" height="253" src="<?php echo get_template_directory_uri(); ?>/img/clinic-jumeirah.jpg" alt="gallery">
-                                                    <div class="overlay-default uk-icon-plus-circle" style="position: absolute; visibility: hidden; display: block; line-height: 233px;">
-                                                        <div></div>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                            <div class="uk-width-medium-1-3">
-                                                <a class="uk-thumbnail-expand spotlight" data-lightbox="group:gallery" href="#" data-spotlight="on" style="position: relative; overflow: hidden;">
-                                                    <img width="380" height="253" src="<?php echo get_template_directory_uri(); ?>/img/clinic-ummsuqeim.jpg" alt="gallery">
-                                                    <div class="overlay-default uk-icon-plus-circle" style="position: absolute; visibility: hidden; display: block; line-height: 233px;">
-                                                        <div></div>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                            <div class="uk-width-medium-1-3">
-                                                <a class="uk-thumbnail-expand spotlight" data-lightbox="group:gallery" href="#" data-spotlight="on" style="position: relative; overflow: hidden;">
-                                                    <img width="380" height="253" src="<?php echo get_template_directory_uri(); ?>/img/clinic-children.jpg" alt="gallery">
-                                                    <div class="overlay-default uk-icon-plus-circle" style="position: absolute; visibility: hidden; display: block; line-height: 233px;">
-                                                        <div></div>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                        </div>
+                                        <?php if( have_rows('3-img') ): ?>
+                                            <?php while ( have_rows('3-img') ) : the_row(); ?>
+                                                <div class="uk-width-medium-1-3">
+                                                    <a class="uk-thumbnail-expand spotlight" data-lightbox="group:gallery" href="<?php the_sub_field('3-gor-img'); ?>" data-spotlight="on" style="position: relative; overflow: hidden;">
+                                                        <img width="380" height="253" src="<?php the_sub_field('3-gor-img'); ?>" alt="gallery">
+                                                        <div class="overlay-default uk-icon-plus-circle" style="position: absolute; visibility: hidden; display: block; line-height: 233px;">
+                                                            <div></div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            <?php endwhile; ?>
+                                            <?php else : ?>
+                                        <?php endif; ?>
+                                        </div><!-- uk-grid -->
+
+
+
                                         <div class="ptreview-bg" itemscope="" itemtype="http://schema.org/Product">
                                             <p style="font-family: 'Archivo Narrow'; font-size: 38px; line-height: 35px; color: rgba(0, 93, 170, 0.8); letter-spacing: -1px; margin-bottom: 25px; text-align: center;">We <i class="uk-icon-heart uk-text-danger"></i>  <span itemprop="name">Dr. Michael's</span>
                                             </p> <span style="text-align: center;"><div class="size-1 extravote"> <span class="extravote-stars" itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating"><meta itemprop="ratingCount" content="36"> <span id="rating_3_x" class="current-rating" style="width:98%;" itemprop="ratingValue">4.875</span>  <span class="extravote-star"><a href="#" onclick="javascript:JVXVote(3,1,175.5,36,'x',0,0,1);" title="1 out of 5" class="ev-10-stars">1</a></span>  <span class="extravote-star"><a href="#" onclick="javascript:JVXVote(3,2,175.5,36,'x',0,0,1);" title="2 out of 5" class="ev-20-stars">1</a></span>  <span class="extravote-star"><a href="#" onclick="javascript:JVXVote(3,3,175.5,36,'x',0,0,1);" title="3 out of 5" class="ev-30-stars">1</a></span>  <span class="extravote-star"><a href="#" onclick="javascript:JVXVote(3,4,175.5,36,'x',0,0,1);" title="4 out of 5" class="ev-40-stars">1</a></span>  <span class="extravote-star"><a href="#" onclick="javascript:JVXVote(3,5,175.5,36,'x',0,0,1);" title="5 out of 5" class="ev-50-stars">1</a></span> </span> <span class="extravote-info" id="extravote_3_x"></span> 
@@ -165,205 +159,44 @@
                                         <div style="margin-top: -10px;">
                                             <div id="slideshow-2-54da7cb01731d" class="wk-slideshow wk-slideshow-solar" data-widgetkit="slideshow" data-options="{&quot;style&quot;:&quot;solar&quot;,&quot;autoplay&quot;:1,&quot;interval&quot;:10000,&quot;width&quot;:&quot;auto&quot;,&quot;height&quot;:&quot;auto&quot;,&quot;duration&quot;:300,&quot;index&quot;:0,&quot;order&quot;:&quot;random&quot;,&quot;navigation&quot;:0,&quot;buttons&quot;:1,&quot;slices&quot;:20,&quot;animated&quot;:&quot;fade&quot;,&quot;caption_animation_duration&quot;:&quot;&quot;}" style="visibility: visible; position: relative; width: 1200px;">
                                                 <div>
-                                                    <ul class="slides" style="width: 100%; overflow: hidden; position: relative; height: 197px;">
-                                                        <li style="top: 0px; left: 0px; position: absolute; display: none; z-index: 2; opacity: 1; width: 1200px; height: 197px;">
+                                                    <ul class="slides">
+
+                                                <?php if( have_rows('client-review') ): ?>
+                                                    <?php while ( have_rows('client-review') ) : the_row(); ?>
+                                                        <li>
                                                             <article class="wk-content clearfix">
                                                                 <div itemprop="review" itemscope="" itemtype="http://schema.org/Review">
-                                                                    <h3><span itemprop="name">Pain and injection-free</span></h3>
-                                                                    <p class="dmcreview"><i class="uk-icon-quote-left"></i>  <span itemprop="reviewBody">Dr. Michael’s Children’s Center has advanced technology and the dentists have been trained in laser dentistry – this is amazing for children as it is – wait for it – pain and injection free!</span>  <i class="uk-icon-quote-right"></i>
-                                                                        <br>- <span class="review-author" itemprop="author">Amanda Powell, ExpatWoman</span> -</p>
+                                                                    <h3><span itemprop="name"><?php the_sub_field('client-review-title'); ?></span></h3>
+                                                                    <p class="dmcreview"><i class="uk-icon-quote-left"></i>  <span itemprop="reviewBody"><?php the_sub_field('client-review-content'); ?></span>  <i class="uk-icon-quote-right"></i>
+                                                                        <br>- <span class="review-author" itemprop="author"><?php the_sub_field('client-review-name'); ?></span> -</p>
                                                                 </div>
                                                             </article>
                                                         </li>
-                                                        <li style="top: 0px; left: 0px; position: absolute; display: none; z-index: 2; opacity: 1; width: 1200px; height: 197px;">
-                                                            <article class="wk-content clearfix">
-                                                                <div itemprop="review" itemscope="" itemtype="http://schema.org/Review">
-                                                                    <h3><span itemprop="name">I go about grinning at everyone</span></h3>
-                                                                    <p class="dmcreview"><i class="uk-icon-quote-left"></i>  <span itemprop="reviewBody">I am absolutely delighted with my new veneers. I go about grinning at everyone, I am sure they think I have gone crazy!</span>  <i class="uk-icon-quote-right"></i>
-                                                                        <br>- <span class="review-author" itemprop="author">K.M.</span> -</p>
-                                                                </div>
-                                                            </article>
-                                                        </li>
-                                                        <li style="top: 0px; left: 0px; position: absolute; display: none; z-index: 2; opacity: 1; width: 1200px; height: 197px;">
-                                                            <article class="wk-content clearfix">
-                                                                <div itemprop="review" itemscope="" itemtype="http://schema.org/Review">
-                                                                    <h3><span itemprop="name">I wanted the best for my child</span></h3>
-                                                                    <p class="dmcreview"><i class="uk-icon-quote-left"></i>  <span itemprop="reviewBody">Like all mothers, I wanted the best for my child. My beautiful daughter was not happy with her smile. So as soon as she turned 13 we started her Orthodontic treatment at Dr. Michael's Dental Clinic.</span>  <i class="uk-icon-quote-right"></i>
-                                                                        <br>- <span class="review-author" itemprop="author">Elham F.</span> -</p>
-                                                                </div>
-                                                            </article>
-                                                        </li>
-                                                        <li style="top: 0px; left: 0px; position: absolute; display: none; z-index: 2; opacity: 1; width: 1200px; height: 197px;">
-                                                            <article class="wk-content clearfix">
-                                                                <div itemprop="review" itemscope="" itemtype="http://schema.org/Review">
-                                                                    <h3><span itemprop="name">For the first time in my life</span></h3>
-                                                                    <p class="dmcreview"><i class="uk-icon-quote-left"></i>  <span itemprop="reviewBody">For the first time in my life I am flossing daily, tongue scraping, using mouthrinse regularly and brushing correctly.</span>  <i class="uk-icon-quote-right"></i>
-                                                                        <br>- <span class="review-author" itemprop="author">Tamimah Dhaher</span> -</p>
-                                                                </div>
-                                                            </article>
-                                                        </li>
-                                                        <li style="top: 0px; left: 0px; position: absolute; display: none; z-index: 2; opacity: 1; width: 1200px; height: 197px;">
-                                                            <article class="wk-content clearfix">
-                                                                <div itemprop="review" itemscope="" itemtype="http://schema.org/Review">
-                                                                    <h3><span itemprop="name">Probably the best in the UAE</span></h3>
-                                                                    <p class="dmcreview"><i class="uk-icon-quote-left"></i>  <span itemprop="reviewBody">Everything seemed to be like a special treatment from the dentists to the staff. So, I'm glad I found Dr. Michael’s Dental Clinic, probably the best in the UAE.</span>  <i class="uk-icon-quote-right"></i>
-                                                                        <br>- <span class="review-author" itemprop="author">Jovy</span> -</p>
-                                                                </div>
-                                                            </article>
-                                                        </li>
-                                                        <li style="top: 0px; left: 0px; position: absolute; display: none; z-index: 2; opacity: 1; width: 1200px; height: 197px;">
-                                                            <article class="wk-content clearfix">
-                                                                <div itemprop="review" itemscope="" itemtype="http://schema.org/Review">
-                                                                    <h3><span itemprop="name">Completely relaxed</span></h3>
-                                                                    <p class="dmcreview"><i class="uk-icon-quote-left"></i>  <span itemprop="reviewBody">I always have problems with dentists, but this is probably the first time in most my life where I was completely relaxed and felt able to completely trust a dentist.</span>  <i class="uk-icon-quote-right"></i>
-                                                                        <br>- <span class="review-author" itemprop="author">Richard</span> -</p>
-                                                                </div>
-                                                            </article>
-                                                        </li>
-                                                        <li style="top: 0px; left: 0px; position: absolute; display: none; z-index: 2; opacity: 1; width: 1200px; height: 197px;">
-                                                            <article class="wk-content clearfix">
-                                                                <div itemprop="review" itemscope="" itemtype="http://schema.org/Review">
-                                                                    <h3><span itemprop="name">Nothing but good things</span></h3>
-                                                                    <p class="dmcreview"><i class="uk-icon-quote-left"></i>  <span itemprop="reviewBody">I have nothing but good things to say about this clinic. The level of professionalism, friendliness, knowledge, cleanliness and care easily sets them apart from every other dental clinic in Dubai.</span>  <i class="uk-icon-quote-right"></i>
-                                                                        <br>- <span class="review-author" itemprop="author">Sharif</span> -</p>
-                                                                </div>
-                                                            </article>
-                                                        </li>
-                                                        <li style="top: 0px; left: 0px; position: absolute; display: none; z-index: 2; opacity: 1; width: 1200px; height: 197px;">
-                                                            <article class="wk-content clearfix">
-                                                                <div itemprop="review" itemscope="" itemtype="http://schema.org/Review">
-                                                                    <h3><span itemprop="name">I feel good about myself</span></h3>
-                                                                    <p class="dmcreview"><i class="uk-icon-quote-left"></i>  <span itemprop="reviewBody">I have nothing but praise for Dr. Michael's Dental Clinic. They are the reason why I'm still able to smile and feel good about myself.</span>  <i class="uk-icon-quote-right"></i>
-                                                                        <br>- <span class="review-author" itemprop="author">A happy patient</span> -</p>
-                                                                </div>
-                                                            </article>
-                                                        </li>
-                                                        <li style="top: 0px; left: 0px; position: absolute; display: none; z-index: 2; opacity: 1; width: 1200px; height: 197px;">
-                                                            <article class="wk-content clearfix">
-                                                                <div itemprop="review" itemscope="" itemtype="http://schema.org/Review">
-                                                                    <h3><span itemprop="name">Always punctual with appointments</span></h3>
-                                                                    <p class="dmcreview"><i class="uk-icon-quote-left"></i>  <span itemprop="reviewBody">I found the service of Dr. Michael's clinic very good as well as they are always punctual with their appointments.</span>  <i class="uk-icon-quote-right"></i>
-                                                                        <br>- <span class="review-author" itemprop="author">Aziz Darwish</span> -</p>
-                                                                </div>
-                                                            </article>
-                                                        </li>
-                                                        <li style="top: 0px; left: 0px; position: absolute; display: none; z-index: 2; opacity: 1; width: 1200px; height: 197px;">
-                                                            <article class="wk-content clearfix">
-                                                                <div itemprop="review" itemscope="" itemtype="http://schema.org/Review">
-                                                                    <h3><span itemprop="name">Modern dental equipments</span></h3>
-                                                                    <p class="dmcreview"><i class="uk-icon-quote-left"></i>  <span itemprop="reviewBody">I would like to make a special mention about your modern dental equipments. It ensures absolutely painless and nice treatments and deserve highest rewards.</span>  <i class="uk-icon-quote-right"></i>
-                                                                        <br>- <span class="review-author" itemprop="author">Liuobov Voronova</span> -</p>
-                                                                </div>
-                                                            </article>
-                                                        </li>
-                                                        <li style="top: 0px; left: 0px; position: absolute; display: none; z-index: 2; opacity: 1; width: 1200px; height: 197px;">
-                                                            <article class="wk-content clearfix">
-                                                                <div itemprop="review" itemscope="" itemtype="http://schema.org/Review">
-                                                                    <h3><span itemprop="name">Excellent and restpectful</span></h3>
-                                                                    <p class="dmcreview"><i class="uk-icon-quote-left"></i>  <span itemprop="reviewBody">I'm a nervous patient. They are excellent and respectful. They have a warm smile and a friendly manner. Bookings are professional &amp; the reception staff charming. The clinic itself looks lovely.</span>  <i class="uk-icon-quote-right"></i>
-                                                                        <br>- <span class="review-author" itemprop="author">Dinky Dani</span> -</p>
-                                                                </div>
-                                                            </article>
-                                                        </li>
-                                                        <li style="top: 0px; left: 0px; position: absolute; display: none; z-index: 2; opacity: 1; width: 1200px; height: 197px;">
-                                                            <article class="wk-content clearfix">
-                                                                <div itemprop="review" itemscope="" itemtype="http://schema.org/Review">
-                                                                    <h3><span itemprop="name">An A+ experience</span></h3>
-                                                                    <p class="dmcreview"><i class="uk-icon-quote-left"></i>  <span itemprop="reviewBody">This is my best teeth whitening ever. The process is very smooth and the staff are extremely professional &amp; caring. I would rate this as an A+ experience for a dental office.</span>  <i class="uk-icon-quote-right"></i>
-                                                                        <br>- <span class="review-author" itemprop="author">Yazan Rahman</span> -</p>
-                                                                </div>
-                                                            </article>
-                                                        </li>
-                                                        <li style="top: 0px; left: 0px; position: absolute; display: none; z-index: 2; opacity: 1; width: 1200px; height: 197px;">
-                                                            <article class="wk-content clearfix">
-                                                                <div itemprop="review" itemscope="" itemtype="http://schema.org/Review">
-                                                                    <h3><span itemprop="name">Simply a class apart</span></h3>
-                                                                    <p class="dmcreview"><i class="uk-icon-quote-left"></i>  <span itemprop="reviewBody">Quality of your team members is simply a class apart. They are simply too good in their job and with a very friendly approach.</span>  <i class="uk-icon-quote-right"></i>
-                                                                        <br>- <span class="review-author" itemprop="author">Mukesh Dogra</span> -</p>
-                                                                </div>
-                                                            </article>
-                                                        </li>
-                                                        <li style="top: 0px; left: 0px; position: absolute; display: none; z-index: 2; opacity: 1; width: 1200px; height: 197px;">
-                                                            <article class="wk-content clearfix">
-                                                                <div itemprop="review" itemscope="" itemtype="http://schema.org/Review">
-                                                                    <h3><span itemprop="name">They handled my case very well</span></h3>
-                                                                    <p class="dmcreview"><i class="uk-icon-quote-left"></i>  <span itemprop="reviewBody">I had an accident a couple of weeks back and had needed emergency dental treatment and they handled my case really well.</span>  <i class="uk-icon-quote-right"></i>
-                                                                        <br>- <span class="review-author" itemprop="author">A happy patient</span> -</p>
-                                                                </div>
-                                                            </article>
-                                                        </li>
-                                                        <li style="top: 0px; left: 0px; position: absolute; display: list-item; z-index: 1; opacity: 1; width: 1200px; height: 197px;">
-                                                            <article class="wk-content clearfix">
-                                                                <div itemprop="review" itemscope="" itemtype="http://schema.org/Review">
-                                                                    <h3><span itemprop="name">Excellent customer service</span></h3>
-                                                                    <p class="dmcreview"><i class="uk-icon-quote-left"></i>  <span itemprop="reviewBody">They were very prompt on getting me an appointment within the time frame that I asked for! Excellent customer service.</span>  <i class="uk-icon-quote-right"></i>
-                                                                        <br>- <span class="review-author" itemprop="author">Dana</span> -</p>
-                                                                </div>
-                                                            </article>
-                                                        </li>
-                                                        <li style="top: 0px; left: 0px; position: absolute; display: none; z-index: 2; opacity: 1; width: 1200px; height: 197px;">
-                                                            <article class="wk-content clearfix">
-                                                                <div itemprop="review" itemscope="" itemtype="http://schema.org/Review">
-                                                                    <h3><span itemprop="name">Professional manner is no doubt a winner</span></h3>
-                                                                    <p class="dmcreview"><i class="uk-icon-quote-left"></i>  <span itemprop="reviewBody">I'd recommend this clinic to anyone seeking dental treatment&nbsp;– their work, step by step explanations, keeping you engaged in the process &amp; professional manner is no doubt a winner.</span>  <i class="uk-icon-quote-right"></i>
-                                                                        <br>- <span class="review-author" itemprop="author">Sharif</span> -</p>
-                                                                </div>
-                                                            </article>
-                                                        </li>
-                                                        <li style="top: 0px; left: 0px; position: absolute; display: none; z-index: 2; opacity: 1; width: 1200px; height: 197px;">
-                                                            <article class="wk-content clearfix">
-                                                                <div itemprop="review" itemscope="" itemtype="http://schema.org/Review">
-                                                                    <h3><span itemprop="name">My nightmare gone away forever</span></h3>
-                                                                    <p class="dmcreview"><i class="uk-icon-quote-left"></i>  <span itemprop="reviewBody">Thank you Dr. Michael's Clinic, because I could take care of my daughter's teeth without seeing her crying or screaming, and my nightmare gone away forever.</span>  <i class="uk-icon-quote-right"></i>
-                                                                        <br>- <span class="review-author" itemprop="author">Furozan Jaffar</span> -</p>
-                                                                </div>
-                                                            </article>
-                                                        </li>
-                                                        <li style="top: 0px; left: 0px; position: absolute; display: none; z-index: 2; opacity: 1; width: 1200px; height: 197px;">
-                                                            <article class="wk-content clearfix">
-                                                                <div itemprop="review" itemscope="" itemtype="http://schema.org/Review">
-                                                                    <h3><span itemprop="name">State-of-the-art service</span></h3>
-                                                                    <p class="dmcreview"><i class="uk-icon-quote-left"></i>  <span itemprop="reviewBody">The clinic is awesome. Thanks for the best treatment and state-of-the-art service which finally destroyed my dentophobia. Veneers look awesome and I keep enjoying my smile everyday :)</span>  <i class="uk-icon-quote-right"></i>
-                                                                        <br>- <span class="review-author" itemprop="author">Alexey Dani</span> -</p>
-                                                                </div>
-                                                            </article>
-                                                        </li>
+                                                    <?php endwhile; ?>
+                                                    <?php else : ?>
+                                                <?php endif; ?>
+
                                                     </ul>
                                                     <div class="next"></div>
                                                     <div class="prev"></div>
-                                                    <div class="caption" style="display: none;"></div>
-                                                    <ul class="captions" style="display: none;">
-                                                        <li></li>
-                                                        <li></li>
-                                                        <li></li>
-                                                        <li></li>
-                                                        <li></li>
-                                                        <li></li>
-                                                        <li></li>
-                                                        <li></li>
-                                                        <li></li>
-                                                        <li></li>
-                                                        <li></li>
-                                                        <li></li>
-                                                        <li></li>
-                                                        <li></li>
-                                                        <li></li>
-                                                        <li></li>
-                                                        <li></li>
-                                                        <li></li>
-                                                    </ul>
-                                                </div>
+                                                  </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="imgheader" style="text-align: center;">
-                                        <a href="#">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/img/newsroom_banner.png" alt="">
+
+
+                                    <div class="imgheader bimba clearfix" style="text-align: center;">
+                                        <?php if( have_rows('baner-block') ): ?>
+                                        <?php while ( have_rows('baner-block') ) : the_row(); ?>
+                                        <a href="<?php the_sub_field('baner-href'); ?>">
+                                            <img src="<?php the_sub_field('baner-img'); ?>" alt="">
                                         </a>
-                                        <a href="#" target="_blank">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/img/whatclinic-banner.png" alt="">
-                                        </a>
+                                        <?php endwhile; ?>
+                                        <?php else : ?>
+                                        <?php endif; ?>
                                     </div>
+
+
                                     <div class="hidden-phone">
                                         <div class="uk-grid">
                                             <div class="uk-width-medium-1-3">
