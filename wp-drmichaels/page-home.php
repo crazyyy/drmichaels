@@ -201,45 +201,25 @@
                                         <div class="uk-grid">
                                             <div class="uk-width-medium-1-3">
                                                 <ul class="uk-tab uk-tab-left" data-uk-tab="{connect:'#drmichaels'}">
-                                                    <li class="uk-active"><a href="#"><i class="uk-icon-check"></i><span style="margin-left: 10px;">Best Dental Clinic</span></a>
+                                                <?php if( have_rows('sub-slider') ): ?>
+                                                <?php while ( have_rows('sub-slider') ) : the_row(); ?>
+                                                    <li class="uk-active"><a href="#"><i class="uk-icon-check"></i><span style="margin-left: 10px;"><?php the_sub_field('slider-navi-title'); ?></span></a>
                                                     </li>
-                                                    <li><a href="#"><i class="uk-icon-check"></i><span style="margin-left: 10px;">Wisest Choice</span></a>
-                                                    </li>
-                                                    <li><a href="#"><i class="uk-icon-check"></i><span style="margin-left: 10px;">Positive Experience</span></a>
-                                                    </li>
-                                                    <li class="uk-tab-responsive uk-active uk-hidden"><a>Best Dental Clinic</a>
-                                                        <div class="uk-dropdown uk-dropdown-small">
-                                                            <ul class="uk-nav uk-nav-dropdown"></ul>
-                                                            <div></div>
-                                                        </div>
-                                                    </li>
+                                                <?php endwhile; ?>
+                                                <?php else : ?>
+                                                <?php endif; ?>
                                                 </ul>
                                             </div>
                                             <div class="uk-width-medium-2-3">
                                                 <ul id="drmichaels" class="uk-switcher uk-margin uk-tab-content">
-                                                    <li class="uk-active">
-                                                        <a data-lightbox="width:1180;height:664;" href="#">
-                                                            <img src="<?php echo get_template_directory_uri(); ?>/img/video-clinic.jpg" alt="">
-                                                        </a>
-                                                    </li>
+                                                <?php if( have_rows('sub-slider') ): ?>
+                                                <?php while ( have_rows('sub-slider') ) : the_row(); ?>
                                                     <li>
-                                                        <img src="<?php echo get_template_directory_uri(); ?>/img/thumbsup-man.jpg" alt="">
-                                                        <h3>The wisest choice for all your dental needs</h3>
-                                                        <p style="text-align: justify;">Our team of highly competent dental specialists, hygienists and support staff are committed to giving you the best, most up-to-date and friendliest dental healthcare there is. We are driven by an unstinting commitment to quality care and delivering superior customer service.</p>
-                                                        <p style="text-align: justify;">Armed with the most advanced facilities matched with continuing professional education, we promise the finest service tailored individually for each patient. We have built an enviable place in the industry, creating a special mark in the fields of <a href="#">Orthodontics</a>, <a href="#">Prosthodontics</a>, <a href="#">Oral and Maxillofacial Surgery</a>, <a href="#">Cosmetic Dentistry</a>, <a href="#">Pedodontics</a>, <a href="#">Periodontics</a>, <a href="#">Endodontics</a>, <a href="#">Sedation Dentistry</a> and <a href="#">Dental Hygiene</a>.</p>
-                                                        <p style="text-align: justify;">Dr. Michael’s Dental Clinic Dubai is the wisest and most convenient choice for all your dental needs. Book for an appointment today and take the first step towards a breathtaking smile.</p>
-                                                        <div style="text-align: right;">
-                                                            <div class="uk-button-group"> <a class="uk-button-color uk-button" href="#" target="_self"><i class="uk-icon-user"></i> Meet Dr. Michael</a>  <a class="uk-button-color uk-button" href="#" target="_self"><i class="uk-icon-users"></i> Meet Our Team</a> 
-                                                            </div>
-                                                        </div>
+                                                        <?php the_sub_field('slider-container'); ?>
                                                     </li>
-                                                    <li>
-                                                        <img src="<?php echo get_template_directory_uri(); ?>/img/stress-free-experience.jpg" alt="">
-                                                        <h3>Pleasant, stress-free, and a positive experience</h3>
-                                                        <p style="text-align: justify;">Our practice at Dr. Michael's Dental Clinic has evolved over the years and we continue to build our reputation in the Middle East with over 18 years of excellent dental service. Our team of dental experts is devoted to restoring and enhancing your smiles and maintaining your optimum oral health.</p>
-                                                        <p style="text-align: justify;">We aim to ensure distinguished service through personalized, ethical and informed care and help our community achieve excellent oral healthcare through high quality, multidisciplinary and cost efficient dental services and procedures. Our dental specialists offer the highest degree of care and comfort to make your experience pleasant, stress-free, and ultimately, a positive one.</p>
-                                                        <p style="text-align: justify;">The most advanced and up-to-the-minute dental procedures are available throughout our state-of- the-art multispecialty dental clinics and children’s dental center. Visit us at Dr. Michael’s Dental Clinic and experience the wisest choice for comfortable and anxiety-free dentistry.</p>
-                                                    </li>
+                                                <?php endwhile; ?>
+                                                <?php else : ?>
+                                                <?php endif; ?>
                                                 </ul>
                                             </div>
                                         </div>
