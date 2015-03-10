@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'Archivo Narrow';
+    font-style: normal;
+    font-weight: 400;
+    src: local("Archivo Narrow Regular"), local("ArchivoNarrow-Regular"), url(http://fonts.gstatic.com/s/archivonarrow/v5/DsLzC9scoPnrGiwYYMQXpj3sPXe5Q4a3bCZMR7ryN4o.woff2) format("woff2");
+    unicode-range: U100 -24F,U1E00-1EFF,U20A0-20AB,U20AD-20CF,U2C60-2C7F,UA720-A7FF;
+}
+
+
+@font-face {
+    font-family: 'Archivo Narrow';
+    font-style: normal;
+    font-weight: 700;
+    src: local("Archivo Narrow Bold"), local("ArchivoNarrow-Bold"), url(http://fonts.gstatic.com/s/archivonarrow/v5/M__Wu4PAmHf4YZvQM8tWsGwfvudCZ8RknLCBmdpmlzc.woff2) format("woff2");
+    unicode-range: U100 -24F,U1E00-1EFF,U20A0-20AB,U20AD-20CF,U2C60-2C7F,UA720-A7FF;
+}
+
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    src: local("Roboto Condensed Bold"), local("RobotoCondensed-Bold"), url(http://fonts.gstatic.com/s/robotocondensed/v13/b9QBgL0iMZfDSpmcXcE8nDW5FUgIgejJvrHuLWqrSMw.woff2) format("woff2");
+    unicode-range: U460 -52F,U20B4,U2DE0-2DFF,UA640-A69F;
+}
+
+
+@font-face {
+    font-family: Pe-icon-7-stroke;
+    src: url(/templates/drmichaels/fonts/Pe-icon-7-stroke.eot);
+    src: url(/templates/drmichaels/fonts/Pe-icon-7-stroke.eot) format("embedded-opentype"), url(/templates/drmichaels/fonts/Pe-icon-7-stroke.woff) format("woff"), url(/templates/drmichaels/fonts/Pe-icon-7-stroke.ttf) format("truetype"), url(/templates/drmichaels/fonts/Pe-icon-7-stroke.svg) format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: FontAwesome;
+    src: url(/templates/drmichaels/warp/fonts/fontawesome-webfont.eot);
+    src: url(/templates/drmichaels/warp/fonts/fontawesome-webfont.eot) format("embedded-opentype"), url(/templates/drmichaels/warp/fonts/fontawesome-webfont.woff) format("woff"), url(/templates/drmichaels/warp/fonts/fontawesome-webfont.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: equiplight;
+    src: url(/templates/drmichaels/fonts/EquipLig-webfont.eot);
+    src: url(/templates/drmichaels/fonts/EquipLig-webfont.eot) format("embedded-opentype"), url(/templates/drmichaels/fonts/EquipLig-webfont.woff) format("woff"), url(/templates/drmichaels/fonts/EquipLig-webfont.ttf) format("truetype"), url(/templates/drmichaels/fonts/EquipLig-webfont.svg) format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: IcoMoon;
+    src: url(/media/jui/fonts/IcoMoon.eot);
+    src: url(/media/jui/fonts/IcoMoon.eot) format("embedded-opentype"), url(/media/jui/fonts/IcoMoon.woff) format("woff"), url(/media/jui/fonts/IcoMoon.ttf) format("truetype"), url(/media/jui/fonts/IcoMoon.svg) format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: segoeui;
+    src: url(/templates/drmichaels/fonts/SegoeUI.eot);
+    src: url(/templates/drmichaels/fonts/SegoeUI.eot) format("embedded-opentype"), url(/templates/drmichaels/fonts/SegoeUI.woff) format("woff"), url(/templates/drmichaels/fonts/SegoeUI.ttf) format("truetype"), url(/templates/drmichaels/fonts/SegoeUI.svg) format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: segoeuilight;
+    src: url(/templates/drmichaels/fonts/SegoeUI-Light.eot);
+    src: url(/templates/drmichaels/fonts/SegoeUI-Light.eot) format("embedded-opentype"), url(/templates/drmichaels/fonts/SegoeUI-Light.woff) format("woff"), url(/templates/drmichaels/fonts/SegoeUI-Light.ttf) format("truetype"), url(/templates/drmichaels/fonts/SegoeUI-Light.svg) format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    src: local("Roboto Medium"), local("Roboto-Medium"), url(http://fonts.gstatic.com/s/roboto/v15/ZLqKeelYbATG60EpZBSDyxJtnKITppOI_IvcXXDNrsc.woff2) format("woff2");
+    unicode-range: U460 -52F,U20B4,U2DE0-2DFF,UA640-A69F;
+}
+
+
+@font-face {
+    font-family: revicons;
+    src: url(/media/com_uniterevolution2/assets/rs-plugin/font/revicons.eot);
+    src: url(/media/com_uniterevolution2/assets/rs-plugin/font/revicons.eot) format("embedded-opentype"), url(/media/com_uniterevolution2/assets/rs-plugin/font/revicons.woff) format("woff"), url(/media/com_uniterevolution2/assets/rs-plugin/font/revicons.ttf) format("truetype"), url(/media/com_uniterevolution2/assets/rs-plugin/font/revicons.svg) format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    src: local("Roboto Light"), local("Roboto-Light"), url(http://fonts.gstatic.com/s/roboto/v15/0eC6fl06luXEYWpBSJvXCBJtnKITppOI_IvcXXDNrsc.woff2) format("woff2");
+    unicode-range: U460 -52F,U20B4,U2DE0-2DFF,UA640-A69F;
+}
